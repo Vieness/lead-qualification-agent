@@ -26,7 +26,7 @@ jobs:
         run: pnpm --filter @lead-agent/api test:coverage
       - name: Eval on the demo mock (must pass every case)
         run: pnpm eval
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: eval-report
