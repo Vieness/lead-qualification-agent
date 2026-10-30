@@ -1,0 +1,12 @@
+{
+  "description": "2.5M UAH ≈ $60k: currency conversion triggers human approval",
+  "decision": "human_review",
+  "status": "pending_approval",
+  "findingsInclude": ["approval_required"],
+  "replyLanguage": "uk",
+  "scoreRules": {
+    "budget_fit": {
+      "min": 30
+    }
+  }
+}

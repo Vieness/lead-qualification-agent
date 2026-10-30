@@ -1,0 +1,8 @@
+{
+  "description": "SEO offer is rejected before any LLM call",
+  "decision": "reject",
+  "status": "rejected",
+  "tier": ["spam"],
+  "findingsInclude": ["spam"],
+  "maxLlmCalls": 0
+}

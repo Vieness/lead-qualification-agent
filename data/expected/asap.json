@@ -1,0 +1,11 @@
+{
+  "description": "Delivery by tomorrow is unrealistic: no timeline points and the tier is capped at cold",
+  "decision": "auto_reply",
+  "status": "completed",
+  "scoreRules": {
+    "timeline_realism": {
+      "max": 0
+    }
+  },
+  "tier": ["cold"]
+}

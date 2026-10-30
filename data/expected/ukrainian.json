@@ -1,0 +1,8 @@
+{
+  "description": "Ukrainian lead gets a Ukrainian reply",
+  "decision": "auto_reply",
+  "status": "completed",
+  "tier": ["hot", "warm"],
+  "replyLanguage": "uk",
+  "findingsExclude": ["unsupported_language"]
+}

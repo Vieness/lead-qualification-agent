@@ -1,0 +1,17 @@
+{
+  "description": "Clearly written but unviable: $500 and one week cap the tier at cold",
+  "decision": "auto_reply",
+  "status": "completed",
+  "tier": ["cold"],
+  "scoreRules": {
+    "budget_fit": {
+      "max": 0
+    },
+    "timeline_realism": {
+      "max": 0
+    },
+    "company_signal": {
+      "max": 0
+    }
+  }
+}

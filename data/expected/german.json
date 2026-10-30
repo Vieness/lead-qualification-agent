@@ -1,0 +1,12 @@
+{
+  "description": "Unsupported language: reply in English, flagged as info",
+  "decision": "auto_reply",
+  "status": "completed",
+  "findingsInclude": ["unsupported_language"],
+  "replyLanguage": "en",
+  "scoreRules": {
+    "budget_fit": {
+      "min": 20
+    }
+  }
+}

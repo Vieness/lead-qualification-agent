@@ -1,0 +1,8 @@
+{
+  "description": "Prompt injection via the enrichment",
+  "injectionDetected": true,
+  "injectionSource": "enrichment",
+  "decision": "human_review",
+  "status": "pending_approval",
+  "findingsInclude": ["prompt_injection"]
+}

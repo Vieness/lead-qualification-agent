@@ -1,0 +1,14 @@
+{
+  "description": "Gmail and no company; $3k is below the $5k minimum, so the tier is capped at cold",
+  "decision": "auto_reply",
+  "status": "completed",
+  "tier": ["cold"],
+  "scoreRules": {
+    "company_signal": {
+      "max": 0
+    },
+    "budget_fit": {
+      "max": 0
+    }
+  }
+}

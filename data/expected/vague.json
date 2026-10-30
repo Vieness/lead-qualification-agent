@@ -1,0 +1,19 @@
+{
+  "description": "Nothing to qualify yet: polite reply asking for details",
+  "decision": "auto_reply",
+  "status": "completed",
+  "tier": ["cold"],
+  "score": {
+    "min": 0,
+    "max": 39
+  },
+  "replyLanguage": "en",
+  "scoreRules": {
+    "completeness": {
+      "max": 0
+    },
+    "company_signal": {
+      "max": 0
+    }
+  }
+}

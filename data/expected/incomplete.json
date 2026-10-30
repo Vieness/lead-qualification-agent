@@ -1,0 +1,14 @@
+{
+  "description": "Verified company but no budget or timeline: reply with questions",
+  "decision": "auto_reply",
+  "status": "completed",
+  "tier": ["warm"],
+  "scoreRules": {
+    "completeness": {
+      "max": 5
+    },
+    "company_signal": {
+      "min": 15
+    }
+  }
+}

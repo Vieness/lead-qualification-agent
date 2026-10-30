@@ -1,0 +1,8 @@
+{
+  "description": "Prompt injection via the message",
+  "injectionDetected": true,
+  "injectionSource": "message",
+  "decision": "human_review",
+  "status": "pending_approval",
+  "findingsInclude": ["prompt_injection"]
+}

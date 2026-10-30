@@ -1,0 +1,18 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+traces/
+.idea/
+.vscode/
+reports/
+
+# Build caches and local tool settings
+*.tsbuildinfo
+.vite/
+.pnpm-store/
+.claude/settings.local.json

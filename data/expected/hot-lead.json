@@ -1,0 +1,14 @@
+{
+  "description": "Clear request from a verified company with a fitting budget",
+  "decision": "auto_reply",
+  "status": "completed",
+  "tier": ["hot"],
+  "score": {
+    "min": 70,
+    "max": 100
+  },
+  "findingsExclude": ["prompt_injection", "approval_required"],
+  "injectionDetected": false,
+  "replyLanguage": "en",
+  "minMatchedCases": 1
+}

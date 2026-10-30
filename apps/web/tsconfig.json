@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2024", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "verbatimModuleSyntax": true,
+    "types": ["vite/client"],
+    "paths": {
+      "@contracts": ["../api/src/contracts/index.ts"],
+      "@contracts/limits": ["../api/src/contracts/limits.ts"]
+    }
+  },
+  "include": ["src", "tests", "vite.config.ts"]
+}

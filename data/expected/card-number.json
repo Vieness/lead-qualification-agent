@@ -1,0 +1,7 @@
+{
+  "description": "Card number in the message is reported as info and masked, the lead proceeds",
+  "decision": "auto_reply",
+  "status": "completed",
+  "findingsInclude": ["pii_detected"],
+  "findingsExclude": ["prompt_injection"]
+}

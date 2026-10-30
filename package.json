@@ -1,0 +1,31 @@
+{
+  "name": "lead-qualification-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Multi-agent system that qualifies inbound agency leads and drafts replies",
+  "packageManager": "pnpm@9.7.0",
+  "engines": {
+    "node": ">=24.15"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "agent": "pnpm --silent --filter @lead-agent/api agent",
+    "eval": "pnpm --silent --filter @lead-agent/api eval"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.72.1"
+  }
+}
