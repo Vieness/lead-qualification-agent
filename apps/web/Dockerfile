@@ -12,7 +12,7 @@ COPY apps/api/src/contracts/limits.ts apps/api/src/contracts/limits.ts
 # Type-checking (it needs the API contracts) runs in CI; the image only bundles
 RUN pnpm --filter @lead-agent/web build:bundle
 
-FROM nginx:1.27-alpine
+FROM nginx:1.29-alpine
 COPY apps/web/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /app/apps/web/dist /usr/share/nginx/html
 EXPOSE 80
